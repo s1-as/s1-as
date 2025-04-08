@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gửi Lời Xin Lỗi Đến Eim Ơi</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f9f3f3, #ffe6e6);
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      color: #333;
+    }
+    .container {
+      padding: 40px;
+    }
+    h1 {
+      color: #ff4d6d;
+      font-size: 3em;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .heart {
+      font-size: 5em;
+      color: #ff4d6d;
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+    .message-box {
+      background: white;
+      padding: 20px;
+      margin-top: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .conditions {
+      background: #fff0f5;
+      border: 2px dashed #ff4d6d;
+      padding: 20px;
+      border-radius: 20px;
+      max-width: 600px;
+      margin: 20px auto;
+    }
+    .conditions h2 {
+      color: #d6336c;
+    }
+    .conditions ul {
+      text-align: left;
+      padding-left: 40px;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <!-- Nhạc nền: Mãi Mãi Bên Nhau -->
+  <audio autoplay loop hidden>
+    <source src="https://docs.google.com/uc?export=download&id=1nS4PS1Wy4oSz7wAqDd2ExqtUzjPG-F5w" type="audio/mpeg">
+    Trình duyệt của bạn không hỗ trợ phát nhạc.
+  </audio>
+
+  <div class="container">
+    <div class="heart">💖</div>
+    <h1>Gửi đến eim êu của anh!</h1>
+
+    <div class="conditions">
+      <h2>💌 Điều kiện để đọc bài viết này 💌</h2>
+      <ul>
+        <li>1️⃣ Tha thứ cho anh.</li>
+        <li>2️⃣ Đồng ý.</li>
+      </ul>
+      <p>Nếu em đồng ý cả hai điều kiện trên, mời em tiếp tục đọc nhé 💕</p>
+    </div>
+
+    <div class="message-box">
+      <p>Anh thật sự xin lỗi vì anh đã làm những điều khiến em phải buồn lòng.</p>
+      <p>Nếu làm eim buồn là một tội ác, anh đây sẽ chấp nhận hình phạt là tử hình.</p>
+      <p>Không có ngày nào trôi qua mà anh không nghĩ về em và những kỷ niệm của tụi mình.</p>
+      <p>Anh mong được em tha thứ và có cơ hội làm lại từ đầu.</p>
+      <p>💌 Anh sẽ luôn yêu và trân trọng em. 💌</p>
+      <p>— Suân —</p>
+    </div>
+
+    <footer>
+      &copy; 2025 Mr Bin Production | Trang web tình cảm dành riêng cho eim êu 🥹
+    </footer>
+  </div>
+</body>
+</html>
